@@ -1,5 +1,5 @@
 <template>
-  <div>lndvdj</div>
+  <IndexPage />
 </template>
 
 <script lang="ts" setup>

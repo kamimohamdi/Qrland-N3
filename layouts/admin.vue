@@ -39,7 +39,9 @@
       </v-navigation-drawer>
 
       <v-main style="height: 100vh">
-        <slot />
+        <div class="p-5">
+          <slot />
+        </div>
       </v-main>
     </v-layout>
   </v-card>
@@ -49,7 +51,6 @@
 import axios from "axios";
 import { ref, watch } from "vue";
 const items = [
-  { text: "My Files", icon: "mdi-folder", link: "/admin" },
   {
     text: "مدیریت کاربران",
     icon: "mdi-account-multiple",
