@@ -12,6 +12,6 @@ import { NuxtLayout } from "#components";
 <style>
 * {
   direction: rtl;
-  font-family: "Dana-Regular";
+  font-family: "Dana-Regular" !important;
 }
 </style>

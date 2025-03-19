@@ -4,5 +4,10 @@
 
 @font-face {
   font-family: "Dana-Regular";
-  src: url("./fonts/dana\ bold.ttf");
+  src: url("./fonts/dana.ttf");
+}
+
+html,
+* {
+  font-family: "Dana-Regular" !important;
 }
